@@ -1,0 +1,18 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (min-width: 426px) {
+  body {
+    background-color: lightblue;
+  }
+}
+@media only screen and (min-width: 769px) {
+  body {
+    background-color: lightblue;
+  }
+}
