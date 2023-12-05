@@ -4,8 +4,29 @@ html {
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.6rem;
+  padding: 1rem;
+  background-color: #83c05b;
 }
-
+#citrus {
+  max-width: 100%;
+}
+#container {
+}
+header h1,
+header h2 {
+  display: none;
+}
+.navigation ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.navigation ul > * {
+  flex-grow: 1;
+  flex-basis: 100%;
+}
 @media only screen and (min-width: 426px) {
   body {
     background-color: lightblue;
