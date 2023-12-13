@@ -8,15 +8,20 @@ body {
   padding: 1rem;
   background-color: #83c05b;
 }
+
 figure img {
   max-width: 100%;
 }
+
 #container {
 }
+
 header h1,
 header h2 {
   display: none;
 }
+
+/* NAV */
 .navigation ul {
   display: flex;
   flex-direction: row;
@@ -35,13 +40,41 @@ header h2 {
   text-decoration: none;
   color: white;
 }
+
+/* MAIN */
+
+#vision {
+}
+
+.vision__img {
+  display: none;
+}
+.vision__teksti p {
+  padding: 1rem;
+}
+.title-flex-box {
+  background-color: #cbcbcb;
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  margin-block-end: 1rem;
+}
+
+#specials,
+#events,
+#news {
+  background-color: #fff;
+  padding: 1rem;
+  margin-block-end: 1rem;
+}
+.news__lists {
+  display: flex;
+}
 @media only screen and (min-width: 426px) {
   body {
-    background-color: lightblue;
   }
 }
 @media only screen and (min-width: 769px) {
   body {
-    background-color: lightblue;
   }
 }
